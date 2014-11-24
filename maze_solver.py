@@ -12,10 +12,16 @@ from PIL import Image
 # end_coords = (507,2)
 # progress_interval = 10000
 
-maze_image_path = 'maze-2.png'
-start_coords = (1,59)
-end_coords = (119,1)
-progress_interval = 500
+# maze_image_path = 'maze-2.png'
+# start_coords = (1,59)
+# end_coords = (119,1)
+# progress_interval = 500
+
+maze_image_path = 'maze-3.png'
+start_coords = (9,52)
+end_coords = (155,7)
+progress_interval = 1000
+
 
 visited_color = (255,242,0) # color to mark visited pixels
 threshold_color = (255,255,255) # anything this bright or brighter is considered clear
